@@ -1,0 +1,22 @@
+{
+  "name": "scribewave",
+  "owner": {
+    "name": "Scribewave",
+    "email": "airgap@scribewave.com"
+  },
+  "description": "Scribewave's plugins for Claude Code.",
+  "plugins": [
+    {
+      "name": "airgap",
+      "source": "./plugins/airgap",
+      "description": "Transcribe local audio and video, and search and read your Scribewave Airgap transcripts. Audio never leaves your computer.",
+      "category": "productivity",
+      "tags": [
+        "transcription",
+        "offline",
+        "meetings",
+        "privacy"
+      ]
+    }
+  ]
+}
