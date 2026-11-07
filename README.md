@@ -8,13 +8,14 @@ Use [Scribewave Airgap](https://airgap.scribewave.com), the offline transcriptio
 - search and read your Airgap transcripts;
 - propose corrections, which Airgap checks and you review in its editor;
 - highlight words to check, or replace a misheard name everywhere;
+- name the speakers once it knows who is talking;
 - prepare meetings with `/airgap:prepare` and follow up with `/airgap:follow-up`.
 
-**Privacy.** Audio never leaves your computer: Airgap transcribes it locally. Claude receives only the text it asks for, from the folders you share, and Airgap lists every request under Settings → AI assistants → Activity.
+**Privacy.** Audio never leaves your computer: Airgap transcribes it locally. Claude receives only the text it asks for, from what you share (folders, Unfiled, or everything), and Airgap lists every request under Settings → AI assistants → Activity.
 
 ### Requirements
 
-- Scribewave Airgap 0.1.17 or later, on macOS or Windows.
+- Scribewave Airgap 0.1.17 or later, on macOS or Windows (0.1.18 or later to rename speakers).
 - In Airgap: **Settings → AI assistants → Allow AI assistants** on, and at least one folder shared.
 
 ### Install
